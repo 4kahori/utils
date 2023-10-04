@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kabura <kabura@student.42.fr>              +#+  +:+       +#+        */
+/*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 14:59:58 by kahori            #+#    #+#             */
-/*   Updated: 2023/09/23 17:51:56 by kabura           ###   ########.fr       */
+/*   Updated: 2023/10/04 15:21:46 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,9 +73,8 @@ void				ft_putstr_fd(char *s, int fd);
 char				*ft_itoa(int n);
 
 // bonus part
-void				ft_lstadd(t_list **lst, t_list *new);
 void				ft_lstadd_back(t_list **lst, t_list *new);
-void				ft_lstadd_front(t_list **lst, t_list *new);
+void				ft_lstadd_back(t_list **lst, t_list *new);
 void				ft_lstclear(t_list **list, void (*del)(void *));
 void				ft_lstdelone(t_list *lst, void (*del)(void *));
 void				ft_lstiter(t_list *lst, void (*f)(void *));

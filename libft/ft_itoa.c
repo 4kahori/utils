@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 //桁数を数える関数
 static size_t	ft_ketasuu(long long int n)
 {

@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 11:52:23 by kahori            #+#    #+#             */
-/*   Updated: 2023/05/29 19:27:49 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:18 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 int	ft_toupper(int i)
 {

@@ -6,15 +6,12 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 23:00:55 by kahori            #+#    #+#             */
-/*   Updated: 2023/07/18 11:04:07 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 15:24:37 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-//リストの最後に要素を追加する
-//lst:リストの先頭アドレス
-//new:追加する要素のアドレス
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*ptr;
@@ -29,8 +26,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	ptr = ft_lstlast(*lst);
 	ptr->next = new;
 }
-
-// //最後の要素のnextにnewのアドレスを代入
 
 // typedef struct s_list
 // {

@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/30 08:33:37 by kahori            #+#    #+#             */
-/*   Updated: 2023/05/30 08:33:49 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:18 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 //リストの要素に関数を適用した新しいリストを作成する
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))

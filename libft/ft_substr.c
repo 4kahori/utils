@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/21 13:11:11 by kahori            #+#    #+#             */
-/*   Updated: 2023/05/29 14:27:38 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:18 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

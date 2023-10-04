@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 23:02:46 by kahori            #+#    #+#             */
-/*   Updated: 2023/05/29 16:32:00 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:18 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 //リストの要素を削除する
 void	ft_lstclear(t_list **lst, void (*del)(void *))

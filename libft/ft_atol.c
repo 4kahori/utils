@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atol.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kabura <kabura@student.42.fr>              +#+  +:+       +#+        */
+/*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/23 17:42:57 by kabura            #+#    #+#             */
-/*   Updated: 2023/09/23 17:44:38 by kabura           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:19 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 static int ft_sign(int n)
 {

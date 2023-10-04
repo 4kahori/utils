@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/21 13:11:05 by kahori            #+#    #+#             */
-/*   Updated: 2023/07/18 11:12:26 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:18 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 //`ft_countwords()`は文字列sの中に文字cが出てくる回数を返す関数。
 //substr_len()は文字列sの中に文字cが出てくる回数を返す関数。
 //ft_free()は文字列sの中に文字cが出てくる回数を返す関数。

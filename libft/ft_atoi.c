@@ -6,13 +6,13 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 11:26:48 by kahori            #+#    #+#             */
-/*   Updated: 2023/07/18 11:13:02 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 15:22:27 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
-// overflowの判定をする関数
+// overflow
 static int	ft_overflow(int sign, long num, long next_num)
 {
 	if (sign == 1 && ((num > LONG_MAX / 10) || (LONG_MAX / 10 == num

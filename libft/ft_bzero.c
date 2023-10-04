@@ -6,25 +6,16 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 11:27:14 by kahori            #+#    #+#             */
-/*   Updated: 2023/07/18 10:54:13 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 15:23:23 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 #include <stddef.h>
 
 void	ft_bzero(void *s, size_t n)
 {
-	size_t	i;
-	char	*p;
-
-	p = (char *)s;
-	i = 0;
-	while (i < n)
-	{
-		p[i] = 0;
-		i++;
-	}
+	ft_memset(s, 0, n);
 }
 
 // #include <stdio.h>

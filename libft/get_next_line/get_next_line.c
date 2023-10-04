@@ -6,12 +6,12 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 13:11:36 by kahori            #+#    #+#             */
-/*   Updated: 2023/09/08 17:54:47 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:14:12 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include "get_next_line.h"
-#include "libft.h"
+#include "../includes/get_next_line.h"
 
 char	*ft_readfile(int fd, char *backup)
 {

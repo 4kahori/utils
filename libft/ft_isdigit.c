@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 11:34:40 by kahori            #+#    #+#             */
-/*   Updated: 2023/05/21 13:25:57 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:19 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 int	ft_isdigit(int i)
 {

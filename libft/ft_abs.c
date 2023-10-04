@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_abs.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kabura <kabura@student.42.fr>              +#+  +:+       +#+        */
+/*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/23 17:24:10 by kabura            #+#    #+#             */
-/*   Updated: 2023/09/23 17:24:22 by kabura           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:20 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 int	ft_abs(int n)
 {

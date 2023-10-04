@@ -6,12 +6,12 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/21 16:16:23 by kahori            #+#    #+#             */
-/*   Updated: 2023/09/08 17:54:43 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:14:18 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include "get_next_line.h"
-#include "libft.h"
+#include "../includes/get_next_line.h"
 
 size_t	gnl_strlen(const char *str)
 {

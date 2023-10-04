@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/21 00:17:44 by kahori            #+#    #+#             */
-/*   Updated: 2023/07/18 11:16:21 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:19 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 //文字列の各文字に関数を適用する
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))

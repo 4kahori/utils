@@ -6,11 +6,11 @@
 /*   By: kahori <kahori@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 11:53:15 by kahori            #+#    #+#             */
-/*   Updated: 2023/05/28 16:35:34 by kahori           ###   ########.fr       */
+/*   Updated: 2023/10/04 13:11:18 by kahori           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "includes/libft.h"
 
 //メモリー領域src の先頭 n バイトを メモリー領域destにコピーする
 void	*ft_memmove(void *dest, const void *src, size_t n)
